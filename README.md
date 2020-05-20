@@ -3,6 +3,8 @@ A simple Python 2 HTTP/HTTPS Payload Injector & Logger Server
 
 This can also be used as a HTTP/HTTPS logger to sniff (see) the requests sent by the applications and browser.
 
+Note : This script can be used for free internet tricks if you have a free homepage / host which can be used as bug in payload. 
+
 To run this server, we need to use Python 2.
 
 ### Steps to use the server 
