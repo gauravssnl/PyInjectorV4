@@ -18,6 +18,15 @@ To run this server, we need to use Python 2.
 
 4. Configure sytem proxy as 127.0.0.1 & the same local port at which our server is listening so that all requests sent by applications are routed to this Injector Server which will forward request to original servers and recive response and the send it the corresponding applications which made the request.
 
+We can also use VPN over this Payload injector server, we just need to  forward VPN requests to this local server. 
+
+In OpenVPN configuartion files, we just need to add the following line to forward the request to this local server ( use the port at which our server is running). Let us say this injector server is ruuning at 8080 for example.
+
+```c
+http-proxy 127.0.0.1 8080
+```
+
+
 
 
 
