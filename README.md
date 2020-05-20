@@ -34,6 +34,7 @@ In OpenVPN configuartion files, we just need to add the following line to forwar
 http-proxy 127.0.0.1 8080
 ```
 
+Note : The author of this script is unkwon.
 
 
 
